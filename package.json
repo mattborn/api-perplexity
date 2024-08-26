@@ -1,0 +1,20 @@
+{
+  "name": "api-perplexity",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Matt Born",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattborn/api-perplexity.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "dev": "env-cmd npx functions-framework --target=perplexity"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.2",
+    "openai": "^4.56.0"
+  }
+}
